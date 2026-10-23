@@ -49,7 +49,7 @@
      {:else}
       <label>Fichier ZIP<input name="site" type="file" accept=".zip,application/zip" required /></label>
      {/if}
-     <small>20 Mo et 250 fichiers maximum (ZIP : 10 Mo). Aucun nom de famille demandé. Ton site doit contenir un fichier index.html à la racine.</small>
+     <small>20 Mo et 250 fichiers maximum (ZIP : 10 Mo). Ton site doit contenir un fichier index.html à la racine.</small>
      <button>Envoyer mon projet</button>
     </form>
    {/if}

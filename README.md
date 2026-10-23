@@ -1,6 +1,6 @@
 # Galerie Future Coders 🚀
 
-Galerie de projets web pour un stage en français. Les élèves déposent un dossier sélectionné directement (ou un ZIP) contenant `index.html`, d'autres pages HTML, images, CSS, JavaScript et sous-dossiers. Seul leur **prénom** est demandé et affiché. Classement alphabétique par prénom.
+Galerie de projets web pour un stage. Les élèves déposent un dossier sélectionné directement (ou un ZIP) contenant `index.html`, d'autres pages HTML, images, CSS, JavaScript et sous-dossiers. Seul leur **prénom** est demandé et affiché. Classement alphabétique par prénom.
 
 ## Déploiement Dokploy
 
