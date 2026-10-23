@@ -1,0 +1,15 @@
+services:
+  gallery:
+    build: .
+    restart: unless-stopped
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set a strong ADMIN_PASSWORD}
+      ORIGIN: ${ORIGIN:?Set public HTTPS URL}
+      BODY_SIZE_LIMIT: 12M
+      DATA_DIR: /data
+    volumes:
+      - gallery_data:/data
+    ports:
+      - "3000:3000"
+volumes:
+  gallery_data:

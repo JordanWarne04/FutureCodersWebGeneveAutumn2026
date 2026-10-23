@@ -1,0 +1,1 @@
+import { all } from '$lib/server/projects';export function load(){return {projects:all()}}

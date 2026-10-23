@@ -1,0 +1,1 @@
+<script>import '../app.css';</script><header><a href="/"><strong>🚀 Future Coders / Galerie</strong></a><nav><a href="/submit">Déposer</a><a href="/admin">Administration</a></nav></header><slot />

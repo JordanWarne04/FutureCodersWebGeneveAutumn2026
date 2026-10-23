@@ -1,0 +1,1 @@
+{"name":"futurecoders-gallery","private":true,"type":"module","scripts":{"dev":"vite dev --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"@sveltejs/adapter-node":"^5.2.0","@sveltejs/kit":"^2.20.0","svelte":"^5.0.0","better-sqlite3":"^11.8.0","adm-zip":"^0.5.16"},"devDependencies":{"vite":"^6.2.0"}}

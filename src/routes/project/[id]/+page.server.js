@@ -1,0 +1,1 @@
+import {error} from '@sveltejs/kit';import {get} from '$lib/server/projects';import {isAdmin} from '$lib/server/auth';export function load({params,cookies}){const p=get(params.id);if(!p||(!p.approved&&!isAdmin(cookies)))error(404);return {project:p}}
